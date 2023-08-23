@@ -1,2 +1,22 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+}
 
+input:focus {
+    outline: none;  
+    border: 2px solid red;
+}
 
+div:empty {
+    height: 10px;
+    border: solid 1px black;
+}
+
+input:disabled {
+    border-radius: 10px;
+}
+
+h1:hover + div.content-wrap {
+    color: red;
+}

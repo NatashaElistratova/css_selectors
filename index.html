@@ -8,8 +8,10 @@
         <title>Document</title>
     </head>
     <body>
-        <section class="page-section">
+        <section class="page-section" id="first-section">
             <h1>Section heading</h1>
+            <input type="text" disabled>
+            <input type="text">
             <div class="content-wrap">
                 <p class="content-item bold">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -88,11 +90,12 @@
                     ></a>
                 </p>
             </div>
+            <div></div>
         </section>
-        <section class="page-section">
+        <section class="page-section" id="second-section">
             <h1>Section heading 2</h1>
-            <div class="content-wrap" data-block="true">
-                <div class="content-item">
+            <div class="content-wrap" data-test="true">
+                <div class="item">
                     <p data-block="false">
                         Lorem ipsum dolor sit amet consectetur, adipisicing
                         elit. Autem rerum dicta consequuntur dolorum nesciunt,
@@ -101,7 +104,7 @@
                         dolores voluptatem ipsum laborum?
                     </p>
                 </div>
-                <p class="content-item" data-block="text-block">
+                <p class="content-item" data-block="text-block some">
                     Iste iusto laboriosam accusamus atque optio possimus
                     nesciunt nisi distinctio. Tempore earum aliquid porro
                     inventore corporis. Dolores tempora hic recusandae optio
