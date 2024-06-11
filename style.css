@@ -1,22 +1,78 @@
 * {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
 }
 
-input:focus {
-    outline: none;  
-    border: 2px solid red;
+.page-section {
+    padding: 15px;
 }
 
-div:empty {
-    height: 10px;
-    border: solid 1px black;
+.wrap {
+    padding: 24px;
+    line-height: 1.4;
 }
 
-input:disabled {
+input {
+    padding: 10px 30px;
+    border: 1px solid gray;
     border-radius: 10px;
 }
 
-h1:hover + div.content-wrap {
+h1:only-of-type {
     color: red;
 }
+
+.wrap:first-of-type {
+    color: peru;
+}
+
+.wrap:nth-last-child(2) {
+    color: green;
+}
+
+.wrap-p:hover {
+    color: purple;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input:disabled {
+    border: 2px solid black;
+}
+
+section:first-child .wrap:not(.active) {
+    border: 1px solid red;
+}
+
+p:empty {
+    padding: 20px;
+    background-color: aqua;
+}
+
+div p {
+    background-color: aqua;
+}
+
+p > span {
+    background-color: aqua;
+}
+
+p.content-item ~ div.content-item {
+    background-color: aqua;
+}
+
+h1:hover + * {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+

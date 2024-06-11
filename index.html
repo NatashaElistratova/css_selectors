@@ -9,10 +9,28 @@
     </head>
     <body>
         <section class="page-section" id="first-section">
-            <h1>Section heading</h1>
+            <p class="wrap-p"></p>
+            <p>
+                <span>Test</span>
+                <h1>Section heading 1</h1>
+            </p>
             <input type="text" disabled>
             <input type="text">
-            <div class="content-wrap">
+            <span>
+                Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Autem rerum dicta consequuntur dolorum nesciunt,
+                eveniet blanditiis ab alias deserunt asperiores
+                repudiandae officiis recusandae voluptate. Nam veniam
+                dolores voluptatem ipsum laborum?
+            </span>
+            <div class="wrap active">
+                <span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Autem rerum dicta consequuntur dolorum nesciunt,
+                    eveniet blanditiis ab alias deserunt asperiores
+                    repudiandae officiis recusandae voluptate. Nam veniam
+                    dolores voluptatem ipsum laborum?
+                </span>
                 <p class="content-item bold">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quaerat dolorum maiores eveniet! Facilis quae consequatur,
@@ -21,31 +39,31 @@
                     assumenda sapiente?
                     <a href="" id="ext-link" class="link link-blue">Link...</a>
                 </p>
-                <p class="content-item">
+                <p class="content-item" attr="test-id">
                     Cum voluptatibus, velit dolore ex amet veritatis!
                     Consequuntur delectus tempore magni, vel nulla sequi laborum
                     modi qui! Illo repudiandae voluptatibus ea quia expedita,
                     unde eos! Repudiandae sunt assumenda ea ipsam.
                     <a href="">Link...</a>
                 </p>
-                <p class="content-item">
+                <p class="content-item" attr="dev-id">
                     Cum voluptatibus, velit dolore ex amet veritatis!
                     Consequuntur delectus tempore magni, vel nulla sequi laborum
                     modi qui! Illo repudiandae voluptatibus ea quia expedita,
                     unde eos! Repudiandae sunt assumenda ea ipsam.
                     <a href="">Link...</a>
                 </p>
-                <div class="content-item">
-                    <p>
+                <p class="content-item" attr="id">
+                    <span>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
                         elit. Autem rerum dicta consequuntur dolorum nesciunt,
                         eveniet blanditiis ab alias deserunt asperiores
                         repudiandae officiis recusandae voluptate. Nam veniam
                         dolores voluptatem ipsum laborum?
-                    </p>
-                </div>
+                    </span>
+                </p>
             </div>
-            <div class="content-wrap">
+            <div class="wrap">
                 <p class="content-item">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci quis explicabo saepe tempore molestias sit
@@ -80,7 +98,7 @@
                     </p>
                 </div>
             </div>
-            <div class="content-wrap">
+            <div class="wrap">
                 <p class="content-item bold">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
                     repellat fugit vero ratione velit ut architecto! Quae
@@ -90,11 +108,10 @@
                     ></a>
                 </p>
             </div>
-            <div></div>
         </section>
         <section class="page-section" id="second-section">
             <h1>Section heading 2</h1>
-            <div class="content-wrap" data-test="true">
+            <div class="wrap" data-test="true">
                 <div class="item">
                     <p data-block="false">
                         Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -119,7 +136,7 @@
                     aliquid numquam?<a href="">Link...</a>
                 </p>
             </div>
-            <div class="content-wrap">
+            <div class="wrap">
                 <p class="content-item" data-block="some-text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Placeat adipisci libero sequi temporibus maxime impedit illo
@@ -137,7 +154,7 @@
                     </p>
                 </div>
             </div>
-            <div class="content-wrap">
+            <div class="wrap">
                 <div class="content-item">
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -160,7 +177,7 @@
         </section>
         <section class="page-section">
             <h1>Section heading 3</h1>
-            <div class="content-wrap">
+            <div class="wrap">
                 <p class="content-item">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Necessitatibus, sint nemo ad recusandae deleniti aliquam
@@ -179,7 +196,7 @@
                     </p>
                 </div>
             </div>
-            <div class="content-wrap">
+            <div class="wrap">
                 <p class="content-item">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Sunt molestiae sequi iusto illo tempore, dignissimos
@@ -196,7 +213,7 @@
                     Iusto, ea!<a href="">Link...</a>
                 </p>
             </div>
-            <div class="content-wrap">
+            <div class="wrap">
                 <p class="content-item">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Quaerat aliquam omnis numquam eum odit eaque asperiores
